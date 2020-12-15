@@ -1,4 +1,4 @@
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -104,5 +104,48 @@
         <!--Seria para aparecer um comentario no texto demarcado, podendo ser utilizado para traduções ou significados-->
         Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>.
     </p>
+
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="1" start="1"><!--Tag para listas ordenadas, em type vc escolhe o tipo de formato da lista, o start, seria em que começa a lista (Os dois seriam opcionais)-->
+        <li>Acordar</li><!--List Item, para cada item da lista, deverá ser colocado em um novo li-->
+        <li>Fazer café</li><!--O </li> seria opcional, o item funciona sem fechar a TAG-->
+        <li>Tomar café</li>
+        <li>Fazer HIIT</li>
+        <li>Fazer yoga</li>
+        <li>Estudar</li>
+    </ol>
+    <h2>Listas Não Ordenadas</h2>
+    <ul type="disc"><!--Square = quadrado // circle = bolinha sem preencher // disc = bolinha preenchida-Este é o padrão-->
+        <li>Acordar</li><!--List Item, para cada item da lista, deverá ser colocado em um novo li-->
+        <li>Fazer café</li><!--O </li> seria opcional, o item funciona sem fechar a TAG-->
+        <li>Tomar café</li>
+        <li>Fazer HIIT</li>
+        <li>Fazer yoga</li>
+        <li>Estudar</li>
+    </ul>
+    <bdo dir="rtl">Texto Invertido</bdo>
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Linguagens Antigas</li>
+        <ol type="I">
+            <li>Visual basic</li>
+        </ol>
+        <li>Linguagens Novas</li>
+        <ol type="I" start="2"><!-- O start sempre será numerico, sendo assim, se a lista for numero romano o 2 seria II e se for alfabeto o 2 seria b-->
+            <li>Dart</li>
+            <li>JavaScript</li>
+        </ol>
+    </ol>
+    <h2>Listas de Definições</h2>
+    <dl><!--Tag de lista de definição-->
+        <dt>HTML</dt><!--Termo-->
+        <dd>Linguagem de marcação para a criação do conteudo de um site</dd><!--Descrição-->
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação</dd>
+    </dl>
 </body>
 </html>
+
+
+
